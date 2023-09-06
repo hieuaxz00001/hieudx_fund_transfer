@@ -4,7 +4,7 @@ pipeline {
     environment {
         registryUserName = '0967840437'
         registryPassword = 'Anhhieu159220'
-        NAME = 'fund_transfer'
+        NAME = 'fund-transfer'
         MOBILE = '0967840437'
         VERSION = "${env.BUILD_ID}"
         PORT = '5000'
