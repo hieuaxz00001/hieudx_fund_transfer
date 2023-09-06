@@ -1,4 +1,5 @@
 spring:
   cloud:
     config:
+      enabled: false
       uri: http://localhost:8090

@@ -5,9 +5,9 @@ spring:
   application:
     name: internet-banking-fund-transfer-service
   datasource:
-    url: jdbc:mysql://localhost:3309/core_bank
-    username: root
-    password: 123456789
+    url: jdbc:mysql://${DB_HOST}/${DB_NAME}?useSSL=false
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
   jpa:
     hibernate:
       ddl-auto: update
